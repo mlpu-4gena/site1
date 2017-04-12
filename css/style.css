@@ -41,7 +41,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+ .sit{
+ 	margin:0 auto;
+ 	height:200px;
+  width:1172px;
+ }
 
 
 
@@ -50,7 +54,7 @@ table {
 
 
 .header{
-  margin:0 auto;
+ 
    height:200px;
   width:1172px;
   background-color:#1959ED;
@@ -60,10 +64,10 @@ table {
 }
 
 
-
+/*Выпадающее меню*/
 
 .menucentr{
-  margin:0 auto;
+  
   height:65px;
   width:1172px;
   background-color:#B72E7C;
@@ -74,7 +78,7 @@ table {
 }
 .menucentr li a{
   color:#EBFE72;
-  padding: 0 10px;
+  padding: 0 20.7px;
   font-family: 'Orbitron', sans-serif;
   font-size:24px;
   text-decoration: none;
@@ -89,11 +93,12 @@ table {
 }
 
 
-/*Выпадающее меню*/
+/*Выпадающее меню(Выпады)*/
 .dropdown{
   position:absolute;
   top:100%;
   width:150px;
+  z-index: 2;
   background:#B72E7C;
   display:none;
 }
@@ -108,4 +113,27 @@ table {
 .dropdown li a{
   line-height:45px;
   height:45px;
+}
+
+
+
+
+/*Правое меню*/
+
+.leftmenu{
+  margin-top:3px;
+  width: 220px;
+  height: 400px;
+  float:right;
+  background-color:#B72E7C;
+}
+
+.leftmenu li a{
+
+   color:#ffffff;
+
+
+
+
+
 }
